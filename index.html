@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tab Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1>TOGGLE TABS</h1>
+        <div class="wrapper">
+          <div class="buttonWrapper">
+            <button class="tab-button active" style="border-top-left-radius: 10px;" data-id="home">Home</button>
+            <button class="tab-button" data-id="about">About</button>
+            <button class="tab-button" style="border-top-right-radius: 10px;" data-id="contact">Contact</button>
+          </div>
+          <div class="contentWrapper">
+            <p class="content active" id="home">
+              This tab about home information
+            </p>
+            <p class="content" id="about">
+              This tab about about information
+            </p>
+            <p class="content" id="contact">
+              This tab about contact information
+            </p>
+          </div>
+        </div>
+
+        <script src="./script.js"></script>
+      </body>
+      </html>
+</html>
